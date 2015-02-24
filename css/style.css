@@ -1,0 +1,30 @@
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav a:link, nav a:visited { /* changed to a:link, a:visited*/
+    display: block; /* moved */ 
+    width: 100px; /* moved */
+    text-decoration: none;
+    background-color:#98bf21; /* light green */
+    text-align:center;
+    padding:4px;
+
+    color:#fff; /*change text color white*/
+    text-transform: uppercase; /*turn text to uppercase*/
+}
+
+nav a:hover, nav a:active { /* active is the color it changes to while you're clicking*/
+    background-color:#7A991A; /* dark green */
+}
+
+nav a.selected {
+    background-color:#7A991A; /* dark green */
+}
